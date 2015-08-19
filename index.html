@@ -3,9 +3,7 @@
     <head>
 		<title>TaskMaster</title>
         <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
-        <script type="text/javascript" src=jQuery.js></script>
-        <script type='text/javascript' src='script.js'></script>
+        
 	</head>
 	<body>
 		<div class="header">
@@ -24,15 +22,31 @@
 				<br/>
 				<div class="list"></div>
 			</div>
-			
+		
+		<div class="container">
+			<h2>Mental Notes:</h2>
+	      <form>
+	        <div class="form-group">
+	          <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+	        </div>
+	      </form>
+	      <div class="button-group pull-right">
+	        <p class="counter">140</p>
+	        <a href="#" class="btn btn-primary">Post</a>
+	      </div>
+	          <ul class="posts">
+	          </ul>
+	    </div>
 		</div>
 		<div class="footer">
 	       <div class="container">
 	         <p>TaskMaster, 2015. Designed by Chelsea Schaefer.</p>
 	       </div>
 	     </div>
-		
-		
+	
+	<script type="text/javascript" src=jQuery.js></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 	</body>
 </html>

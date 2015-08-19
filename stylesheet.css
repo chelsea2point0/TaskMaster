@@ -56,7 +56,7 @@ p {
 
 .container {
     height: 250px;
-    width: 40%;
+    width: 50%;
     overflow: auto;
 }
 
@@ -78,6 +78,58 @@ p {
 
 .list:hover {
     cursor: pointer;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    height:20px;
+    width: 100px;
+    background-color:#cc0000;
+    font-family:broadway;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align:center;
+    margin-top:2px;
+    padding: 0 20px;
+}
+
+.status-box {
+    width: 320px;
+}
+
+.counter {
+  display: inline;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  color: red;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
 }
 
 .footer { 
